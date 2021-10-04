@@ -1,0 +1,10 @@
+.item{
+    /*  */
+    margin: 5px;
+    padding: 5px;
+    list-style: none;
+}
+.items{
+    text-decoration: none;
+    color: rgb(223, 203, 241);
+}
