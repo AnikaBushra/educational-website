@@ -2,7 +2,6 @@ import React from 'react';
 import { useEffect } from 'react';
 import { useState } from 'react';
 import Service from '../Service/Service';
-import Services from '../Services/Services';
 import './Home.css'
 
 const Home = () => {
@@ -13,7 +12,6 @@ const Home = () => {
             .then(data => setServices(data));
     }, []);
     const serviceSlice = services.slice(0, 4);
-    console.log(serviceSlice);
     return (
         <div>
             <div className="home row text-white">
@@ -28,7 +26,7 @@ const Home = () => {
                 <h2 className="text-danger my-3">Our services</h2>
                 <div className="row ms-2">
                     {
-                        serviceSlice.map(servic => <Service servic={servic} ></Service>)
+                        serviceSlice.map(servic => <Service servic={servic} key={servic.course} ></Service>)
                     }
                 </div>
             </div>

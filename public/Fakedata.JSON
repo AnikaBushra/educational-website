@@ -9,7 +9,7 @@
         "course": "AudioBook to learn English",
         "price": 150,
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFfAw7p4wlU_LHqkKanE8_0IhPVdbgYtMw8w&usqp=CAU",
-        "details": "The course has Learn section for starting with basics, stories to challange your listening and reading skills"
+        "details": "The audiobook helps you to Learn with basics, stories to challange your listening and reading skills"
     },
     {
         "course": "English for Beginers",
@@ -21,7 +21,7 @@
         "course": "Arabic for beginer",
         "price": 150,
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYcLB0M1oRTVklKxDnRzLfyBPwUu_XMRS5vQ&usqp=CAU",
-        "details": "The course has Learn section for starting with basics, stories to challange your listening and reading skills"
+        "details": "The course provides tecniques for starting with basics, stories to challange your listening and reading skills"
     },
     {
         "course": "Japanese for beginer",
